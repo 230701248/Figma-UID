@@ -67,7 +67,8 @@ font-size: 0.875em;
 
 
 javascript script.js */
-document.getElementById('myForm').addEventListener('submit', function (e) { e.preventDefault();
+document.getElementById('myForm').addEventListener('submit', function (e) { 
+e.preventDefault();
 let email = document.getElementById('email').value; 
 let phone = document.getElementById('phone').value;
 let emailError = document.getElementById('emailError'); 
